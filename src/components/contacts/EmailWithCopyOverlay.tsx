@@ -31,7 +31,7 @@ export const EmailWithCopyOverlay = () => {
                     Email Copied!
                 </div>
             )}
-            <span style={{color: 'white', marginBottom: '10px', cursor: 'pointer'}} onClick={handleEmailClick}>
+            <span style={{color: 'white', marginBottom: '30px', cursor: 'pointer'}} onClick={handleEmailClick}>
                 {emailAddress}
             </span>
         </>

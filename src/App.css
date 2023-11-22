@@ -9,6 +9,7 @@ html, body {
     color: white; /* Set the text color to white for visibility */
     display: flex;
     flex-direction: column;
+    font-size: 30px
 }
 
 .App {
@@ -32,6 +33,7 @@ html, body {
 @media (max-width: 768px) {
     .header {
         flex-direction: column; /* Stack items vertically on smaller screens */
+        font-size: 20px
     }
 }
 
