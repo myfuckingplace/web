@@ -24,7 +24,7 @@ html, body {
     display: flex;
     flex-direction: row; /* Default layout for PC */
     align-items: center; /* Align items vertically */
-    justify-content: start; /* Align items to the start of the container */
+    justify-content: flex-start; /* Align items to the start of the container */
     font-family: 'Kanit', sans-serif;
 }
 
