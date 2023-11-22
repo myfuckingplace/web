@@ -28,7 +28,7 @@ export const EmailWithCopyOverlay = () => {
                     borderRadius: '10px',
                     zIndex: 1000, /* Ensure it's above other elements */
                 }}>
-                    Email Copied!
+                    Zkopírováno do schránky
                 </div>
             )}
             <span style={{color: 'white', marginBottom: '30px', cursor: 'pointer'}} onClick={handleEmailClick}>
