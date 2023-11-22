@@ -6,7 +6,7 @@ export const InstagramLogo = () => {
     return (
         <>
             <a href={instagramUrl} target="_blank" rel="noopener noreferrer">
-                <img src={instagramIcon} alt="Instagram" style={{width: '30px', height: '30px'}}/>
+                <img src={instagramIcon} alt="Visit our Instagram page" style={{width: '30px', height: '30px'}}/>
             </a>
         </>
     )
